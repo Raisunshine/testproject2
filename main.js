@@ -27,7 +27,7 @@ function addItem() {
 }
 
     function updatedItem(item, key, value) {
-        item [key] = value;
+        item[key] = value;
 
         setItems(items);
         refreshList();
