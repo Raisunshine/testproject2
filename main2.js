@@ -51,7 +51,7 @@ function addItem() {
         for (const item of items) {
             const itemElement = ITEM_TEMPLATE.content.cloneNode(true);
             const descriptionInput = itemElement.querySelector(".item-description");
-            const completedInput = itemElement.querySelector(".itemcompleted");
+            const completedInput = itemElement.querySelector(".item-completed");
 
             descriptionInput.value = item.description;
             completedInput.checked = item.completed;
